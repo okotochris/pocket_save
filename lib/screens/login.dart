@@ -48,6 +48,7 @@ class _LoginState extends State<Login> {
                         child: Text('Phone Number')),
                       TextField(
                       decoration: InputDecoration(
+                        hintText: "Phone Number",
                        border:OutlineInputBorder(
                       borderSide: BorderSide(
                         color:Color.fromRGBO(0, 128, 128, 1),
@@ -67,9 +68,10 @@ class _LoginState extends State<Login> {
                     children: [
                       Align(
                         alignment: Alignment.centerLeft,
-                        child: Text('Phone Number')),
+                        child: Text('Password')),
                       TextField(
                       decoration: InputDecoration(
+                        hintText:'Password',
                        border:OutlineInputBorder(
                       borderSide: BorderSide(
                         color:Color.fromRGBO(0, 128, 128, 1),
@@ -85,8 +87,8 @@ class _LoginState extends State<Login> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                  Text("Forget your password?"),
-                  TextButton(onPressed: (){}, child: Text("Click here", style:TextStyle(color:Color.fromRGBO(0, 128, 128, 1))))
+                  const Text("Forget your password?"),
+                  TextButton(onPressed: (){}, child: const Text("Click here", style:TextStyle(color:Color.fromRGBO(0, 128, 128, 1))))
                 ],),
                 SizedBox(height:245),
                 GestureDetector(
