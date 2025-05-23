@@ -19,9 +19,9 @@ class Welcome extends StatelessWidget {
             style: TextStyle(color:Colors.white, fontWeight: FontWeight.w700, fontSize:24,
             ))
             ],),
-            SizedBox(height: 52,),
+            const SizedBox(height: 52,),
             GestureDetector(child: Image.asset("assets/images/cypto1.png", height: 350, width: 175,), onTap: () => Navigator.pushNamed(context, '/welcome2'),),
-            SizedBox(height: 63.13,),
+            const SizedBox(height: 63.13,),
             const Text("Build your savings", style:TextStyle(fontSize: 24, fontWeight: FontWeight.w700, color: Colors.white)),
             const Text("with easy & discipline", style: TextStyle(fontSize: 24, fontWeight: FontWeight.w700, color: Colors.white)),
             const SizedBox(height: 61,),
@@ -46,7 +46,7 @@ class Welcome extends StatelessWidget {
                child: Container(
                 height: 46,
                 width: 271,
-                color:Color.fromRGBO(4, 4, 36, 1),
+                color:const Color.fromRGBO(4, 4, 36, 1),
                 child: const Align(
                   alignment: Alignment.center,
                   child: Text(

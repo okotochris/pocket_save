@@ -41,7 +41,7 @@ class Welcome3 extends StatelessWidget {
                child: Container(
                 height: 46,
                 width: 271,
-                color:Color.fromRGBO(4, 4, 36, 1),
+                color:const Color.fromRGBO(4, 4, 36, 1),
                 child: const Align(
                   alignment: Alignment.center,
                   child: Text(

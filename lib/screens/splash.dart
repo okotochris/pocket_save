@@ -14,7 +14,7 @@ class Splash extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
              Image.asset('assets/images/savepocket.png', height: 100, width:100),
-              SizedBox(height:10),
+              const SizedBox(height:10),
               const Text('POCKETSAVE', style: TextStyle(fontSize: 40, fontWeight: FontWeight.w600, color:Colors.white))
             ],
           )
